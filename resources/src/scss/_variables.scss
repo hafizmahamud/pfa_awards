@@ -1,0 +1,35 @@
+// Bootstrap variable overrides
+// -----------------------------------------------------------------------
+//
+// Use this section to override any predefined Bootstrap variables in
+// ~bootstrap/scss/_variables.scss
+//
+// Example:
+// $link-color: #000;
+
+// App-specific variables
+// -----------------------------------------------------------------------
+//
+// Define any other variables below
+
+$primary:#032262;
+$secondary:#0786D6;
+$third: #D6E4F7;
+$forth: #EDF1F8 ;
+$white :#fff;
+
+$font-primary: 'Montserrat';
+$font-secondary: 'Open Sans';
+
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+$font-family-sans-serif: Montserrat;
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+//border
+$border-color:rgba(3, 34, 98, 0.2);
+$border-color-secondary: $third;
+$border-color-third: $forth;
+

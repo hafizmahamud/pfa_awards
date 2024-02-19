@@ -1,0 +1,45 @@
+footer{
+  color:#fff;
+  background-color: $primary;
+  font-family: $font-secondary;
+  ul{
+    li{
+      .wrap{
+        text-align: left;
+        min-width: 53px;
+      }
+      a{
+        display: flex;
+        justify-content: flex-end;
+        &:hover{
+          color:#fff;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+.footer-menu p a{
+  color: #fff;
+  text-decoration: none;
+
+}
+
+.footer-menu .copyright p a{
+  color: #fff;
+}
+
+.footer-register{
+  p{
+    font-family: $font-secondary;
+  }
+}
+
+.ft-logo{
+  left:0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 0;
+}
